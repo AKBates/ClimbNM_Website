@@ -2,28 +2,20 @@
 
 .container {
 	
+	margin: 0 auto;
 	width: 1920px;
-	
-
 	
 }
 
 .nav {
 	
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 	width: 1920px;
 	height: 137px;
 	background-color: #fdb94b;
 	
-	position: absolute;
+	position: fixed;
 		
-}
-
-.navText {
-	
-	position: relative;
-	margin-top: 200px;
-	
 }
 
 .logo {
@@ -33,8 +25,8 @@
 	font-weight: 10px;
 	
 	float: left;
-	/*margin: 20px;
-	margin-left: 75px;*/
+	margin: 20px;
+	margin-left: 75px;
 	
 }
 
@@ -46,8 +38,8 @@
 	
 	clear: both;
 	float: right;
-	/*margin-top: -112px;
-	margin-right: 350px;*/
+	margin-top: -112px;
+	margin-right: 350px;
 	
 }
 
@@ -59,8 +51,15 @@
 	
 	clear: both;
 	float: right;
-	/*margin-top: -169px;
-	margin-right: 75px;*/
+	margin-top: -169px;
+	margin-right: 75px;
+	
+}
+
+.firstPanel {
+	
+	width: 1920px;
+	height: 974px;
 	
 }
 
@@ -69,9 +68,16 @@
 	width: 1920px;
 	height: 974px;
 	
-	position: absolute;
-	/*margin-top: 150px;
-	margin-left: 17px;*/
+	/*position: relative;*/
+	margin-top: -50px;
+	
+	
+	
+}
+
+.fpText {
+	
+	/*position: absolute;*/
 	
 	
 }
@@ -82,10 +88,200 @@
 	font-size: 350px;
 	color: #ffffff;
 	
-	position: relative;
-	text-align: center;
-	
-
+	margin-top: -850px;
+	margin-left: 700px;
 	
 }
+
+.newMexico {
+	
+	font-family: 'Avenir Next Condensed';
+	font-size: 280px;
+	font-weight: bolder;
+	color: #bde4e8;
+	
+	margin-top: -450px;
+	margin-left: 250px;	
+	
+}
+
+.secondPanel {
+	
+	width: 1920px;
+	height: 713px;
+	
+}
+
+.spImage {
+	
+	width: 1920px;
+	height: 713px;
+	
+	background-color: #bde4e8;
+	
+	position: relative;
+	margin-top: 140px;
+	
+}
+
+.spText {
+	
+	/*position: absolute;*/
+	
+}
+
+.carabiner {
+	
+	width: 700px;
+	height: 700px;
+	
+	position: absolute;
+	
+	margin-top: -750px;
+	margin-left: 50px;
+	
+}
+
+.spHead1 {
+	
+	font-family: 'Avenir Next Condensed';
+	font-size: 170px;
+	font-weight: normal bold;
+	color: #ffffff;
+	
+	position: absolute;
+	text-align: center;
+	
+	margin-top: -625px;
+	margin-left: 950px;
+	
+}
+
+.spHead2 {
+	
+	font-family: 'Avenir Next Condensed';
+	font-size: 170px;
+	font-weight: normal bold;
+	color: #ffffff;
+	
+	position: absolute;
+	text-align: center;
+	
+	margin-top: -450px;
+	margin-left: 700px;
+	
+}
+
+.spSub {
+	
+	font-family: 'Great Sejagad';
+	font-size: 130px;
+	color: #1a134a;
+	
+	position: absolute;
+	text-align: center;
+	
+	margin-top: -250px;
+	margin-left: 1000px;
+	
+}
+
+.thirdPanel {
+	
+	width: 1920px;
+	height: 1002px;
+	
+}
+
+.shelf {
+	
+	width: 776px;
+	height: 1002px;
+	
+}
+
+.find {
+	
+	font-family: 'Great Sejagad';
+	font-size: 200px;
+	font-weight: lighter;
+	color: #1a134a;
+	
+	margin-top: -925px;
+	margin-left: 850px;
+	
+}
+
+.city {
+	
+	font-family: 'Avenir Next Condensed';
+	font-size: 120px;
+	font-weight: normal;
+	color: #f47937;
+	
+	margin-top: -200px;
+	margin-left: 850px;
+	
+}
+
+.typeBox {
+	
+	width: 968px;
+	height: 125px;
+	border: 2px solid #1a134a;
+	
+	margin-top: -120px;
+	margin-left: 850px;
+	
+}
+
+.typeCity {
+	
+	font-family: 'Avenir Next Condensed';
+	font-size: 100px;
+	font-weight: lighter;
+	font-style: italic; 
+	color: #f47937;
+	
+	margin-top: -10px;
+	margin-left: 10px;
+	
+}
+
+.go {
+	
+	font-family: 'Great Sejagad';
+	font-size: 175px;
+	font-weight: lighter;
+	color: #1a134a;
+	
+	margin-top: 70px;
+	margin-left: 1150px;
+	
+}
+
+.footer {
+	
+	margin: 0 auto;
+	width: 1920px;
+	height: 137px;
+	background-color: #fdb94b;
+	
+	position: absolute;
+}
+
+.copyright {
+	
+	font-family: 'Avenir Next Condensed';
+	font-size: 50px;
+	font-weight: lighter;
+	color: #1a134a;
+	
+	position: relative;
+	margin-top: 30px;
+	text-align: center;
+	
+	
+}
+
 
