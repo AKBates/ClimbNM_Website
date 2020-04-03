@@ -1,0 +1,91 @@
+/* CSS Document */
+
+.container {
+	
+	width: 1920px;
+	
+
+	
+}
+
+.nav {
+	
+	/*margin: 0 auto;*/
+	width: 1920px;
+	height: 137px;
+	background-color: #fdb94b;
+	
+	position: absolute;
+		
+}
+
+.navText {
+	
+	position: relative;
+	margin-top: 200px;
+	
+}
+
+.logo {
+	
+	font-family: 'Avenir Next Condensed';
+	font-size: 70px;
+	font-weight: 10px;
+	
+	float: left;
+	/*margin: 20px;
+	margin-left: 75px;*/
+	
+}
+
+.types {
+	
+	font-family: 'Avenir Next Condensed';
+	font-size: 70px;
+	font-weight: 10px;
+	
+	clear: both;
+	float: right;
+	/*margin-top: -112px;
+	margin-right: 350px;*/
+	
+}
+
+.routes {
+	
+	font-family: 'Avenir Next Condensed';
+	font-size: 70px;
+	font-weight: 10px;
+	
+	clear: both;
+	float: right;
+	/*margin-top: -169px;
+	margin-right: 75px;*/
+	
+}
+
+.organ {
+	
+	width: 1920px;
+	height: 974px;
+	
+	position: absolute;
+	/*margin-top: 150px;
+	margin-left: 17px;*/
+	
+	
+}
+
+.climb {
+	
+	font-family: 'Great Sejagad';
+	font-size: 350px;
+	color: #ffffff;
+	
+	position: relative;
+	text-align: center;
+	
+
+	
+}
+
