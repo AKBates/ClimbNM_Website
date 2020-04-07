@@ -1,20 +1,29 @@
 /* CSS Document */
 
-.container {
+body {
 	
 	margin: 0 auto;
 	width: 1920px;
 	
 }
 
+.container {
+	
+	margin: 0 auto;
+	overflow: scroll;
+	display: flex;
+	
+}
+
 .nav {
 	
 	margin: 0 auto;
-	width: 1920px;
-	height: 137px;
-	background-color: #fdb94b;
 	
-	position: fixed;
+	background-color: #fdb94b;
+	/*width: 1920px;*/
+	height: 137px;
+	
+	position: absolute;
 		
 }
 
@@ -58,26 +67,15 @@
 
 .firstPanel {
 	
-	width: 1920px;
-	height: 974px;
+	/*width: 1920px;
+	height: 974px;*/
 	
-}
-
-.organ {
+	background-image: url("../HomepageImages/OrganMountain.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
 	
-	width: 1920px;
-	height: 974px;
+	margin-top: -210px;
 	
-	/*position: relative;*/
-	margin-top: -50px;
-	
-	
-	
-}
-
-.fpText {
-	
-	/*position: absolute;*/
 	
 	
 }
@@ -86,10 +84,10 @@
 	
 	font-family: 'Great Sejagad';
 	font-size: 350px;
-	color: #ffffff;
+	color: #000;
 	
-	margin-top: -850px;
-	margin-left: 700px;
+	text-align-last: right;
+	justify-content: flex-end;
 	
 }
 
@@ -100,11 +98,34 @@
 	font-weight: bolder;
 	color: #bde4e8;
 	
-	margin-top: -450px;
-	margin-left: 250px;	
+	text-align-last: right;
+	align-items: center;
 	
 }
 
+/*.fpImage {
+	
+	position: relative;
+	
+}
+
+.fpText {
+	
+	position: absolute;
+	
+}
+
+.organ {
+	
+	width: 1920px;
+	height: 974px;
+	
+	position: relative;
+	margin-top: -50px;
+	
+} */
+
+/*
 .secondPanel {
 	
 	width: 1920px;
@@ -126,7 +147,7 @@
 
 .spText {
 	
-	/*position: absolute;*/
+	position: absolute;
 	
 }
 
@@ -260,6 +281,8 @@
 	
 }
 
+*/
+
 .footer {
 	
 	margin: 0 auto;
@@ -283,5 +306,6 @@
 	
 	
 }
+
 
 
