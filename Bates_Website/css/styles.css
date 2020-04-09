@@ -1,74 +1,103 @@
 /* CSS Document */
 
-body {
+html {
 	
 	margin: 0 auto;
-	width: 1920px;
+	padding: 0;
+	display: flex;
+	
+}
+
+body {
+	
+	margin: 0;
+	
 	
 }
 
 .container {
 	
-	margin: 0 auto;
-	overflow: scroll;
 	display: flex;
+	
+	margin: 0 auto;
+	
 	
 }
 
 .nav {
 	
-	margin: 0 auto;
-	
-	background-color: #fdb94b;
-	/*width: 1920px;*/
+	overflow: hidden;
 	height: 137px;
+	background-color: #fdb94b;
 	
-	position: absolute;
+	min-width: 1440px;
+	max-width: 1920px;
 		
 }
 
 .logo {
 	
-	font-family: 'Avenir Next Condensed';
-	font-size: 70px;
-	font-weight: 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 	
-	float: left;
-	margin: 20px;
-	margin-left: 75px;
+	margin: 0;
+	margin-left: 50px;
+	margin-top: 30px;
+	padding: 0;
+	width: 100%;
+	
+	color: #1a134a;
+	
+	font-family: 'Avenir Next Condensed';
+	font-size: 50px;
 	
 }
 
 .types {
 	
-	font-family: 'Avenir Next Condensed';
-	font-size: 70px;
-	font-weight: 10px;
+	margin: 0;
+	margin-right: -325px;
+	margin-top: -65px;
+	padding: 0;
+	width: 100%;
 	
-	clear: both;
 	float: right;
-	margin-top: -112px;
-	margin-right: 350px;
+	color: #1a134a;
+	text-align: center;
+	
+	font-family: 'Avenir Next Condensed';
+	font-size: 50px;
 	
 }
 
 .routes {
 	
-	font-family: 'Avenir Next Condensed';
-	font-size: 70px;
-	font-weight: 10px;
+	margin: 0;
+	margin-right: -550px;
+	margin-top: -67px;
+	padding: 0;
+	width: 100%;
 	
-	clear: both;
 	float: right;
-	margin-top: -169px;
-	margin-right: 75px;
+	color: #1a134a;
+	text-align: center;
+	
+	font-family: 'Avenir Next Condensed';
+	font-size: 50px;
 	
 }
 
-.firstPanel {
+a :hover {
 	
-	/*width: 1920px;
-	height: 974px;*/
+	font-weight: bolder;
+	
+}
+
+/*.firstPanel {
+	
+	width: 1920px;
+	height: 974px;
 	
 	background-image: url("../HomepageImages/OrganMountain.jpg");
 	background-repeat: no-repeat;
@@ -86,8 +115,9 @@ body {
 	font-size: 350px;
 	color: #000;
 	
-	text-align-last: right;
+	display: flex;
 	justify-content: flex-end;
+	
 	
 }
 
@@ -101,7 +131,7 @@ body {
 	text-align-last: right;
 	align-items: center;
 	
-}
+}*/
 
 /*.fpImage {
 	
@@ -283,14 +313,15 @@ body {
 
 */
 
-.footer {
+/*.footer {
 	
 	margin: 0 auto;
 	width: 1920px;
 	height: 137px;
 	background-color: #fdb94b;
 	
-	position: absolute;
+	justify-content: center;
+	align-items: baseline;
 }
 
 .copyright {
@@ -300,12 +331,12 @@ body {
 	font-weight: lighter;
 	color: #1a134a;
 	
-	position: relative;
+	
 	margin-top: 30px;
 	text-align: center;
 	
 	
-}
+}*/
 
 
 
