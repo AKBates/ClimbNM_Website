@@ -1,15 +1,10 @@
 /* CSS Document */
 
-html {
+body {
 	
 	margin: 0 auto;
 	padding: 0;
-	
-}
-
-body {
-	
-	margin: 0;
+	display: flex;
 	
 	
 }
@@ -17,18 +12,22 @@ body {
 .container {
 	
 	margin: 0 auto;
+	padding: 0;
 	width: 100%;
 	
 }
 
 .nav {
 	
+	margin: 0 auto;
+	padding: 0;
+	
 	overflow: hidden;
 	height: 137px;
 	background-color: #fdb94b;
 	
-	width: 1620px;
-	max-height: 1620px;
+	width: 100%;
+	max-width: 1920px;
 	min-width: 1300px;
 		
 }
@@ -72,7 +71,7 @@ body {
 .routes {
 	
 	margin: 0;
-	margin-right: -675px;
+	margin-right: -625px;
 	margin-top: -67px;
 	padding: 0;
 	width: 100%;
@@ -88,9 +87,11 @@ body {
 
 .firstPanel {
 	
+	margin: 0 auto;
+	
 	overflow: hidden;
-	width: 1620px;
-	max-height: 1620px;
+	width: 100%;
+	max-width: 1920px;
 	min-width: 1300px;
 	height: 700px;
 	
@@ -114,8 +115,6 @@ body {
 	margin: 0;
 	margin-top: 20px;
 	text-align: center;
-
-	
 	
 }
 
@@ -136,9 +135,11 @@ body {
 
 .secondPanel {
 	
+	margin: 0 auto;
+	
 	overflow: hidden;
-	width: 1620px;
-	max-height: 1620px;
+	width: 100%;
+	max-width: 1920px;
 	min-width: 1300px;
 	height: 650px;
 	background-color: #bde4e8;
@@ -152,37 +153,36 @@ body {
 	
 	margin: 0;
 	margin-top: -40px;
-	margin-left: -50px;
+	margin-left: -80px;
 	
 }
 
 .spHead1 {
 	
 	font-family: 'Avenir Next Condensed';
-	font-size: 170px;
+	font-size: 150px;
 	font-weight: normal bold;
 	color: #ffffff;
 
 	margin: 0;
-	float: right;
-	margin-right: 300px;
-	margin-top: 75px;
-	text-align: center;
+	margin-left: 700px;
+	margin-top: -575px;
+
+	justify-content: center;
 	
 }
 
 .spHead2 {
 	
 	font-family: 'Avenir Next Condensed';
-	font-size: 170px;
+	font-size: 150px;
 	font-weight: normal bold;
 	color: #ffffff;
 	
 	margin: 0;
-	clear: both;
-	float: right;
-	margin-right: 100px;
-	margin-top: -425px;
+	margin-left: 450px;
+	margin-top: -50px;
+
 	text-align: center;
 	
 }
@@ -194,60 +194,77 @@ body {
 	color: #1a134a;
 	
 	margin: 0;
-	clear: both;
-	float: right;
-	margin-right: 100px;
-	margin-top: -250px;
+	margin-right: -600px;
+	margin-top: -30px;
 	text-align: center;
 	
 }
 
-/*.thirdPanel {
+.thirdPanel {
 	
-	width: 1920px;
-	height: 1002px;
+	margin: 0 auto;
+	
+	overflow: hidden;
+	width: 100%;
+	max-width: 1920px;
+	min-width: 1300px;
+	height: 800px;
+	
+	display: flex;
 	
 }
 
 .shelf {
 	
-	width: 776px;
-	height: 1002px;
+	width: 625px;
+	height: 800px;
+	
+	display: flex;
+	
+	margin: 0;
+
 	
 }
+
 
 .find {
 	
 	font-family: 'Great Sejagad';
-	font-size: 200px;
-	font-weight: lighter;
+	font-size: 135px;
 	color: #1a134a;
+
+	margin: 0;
+	margin-right: -650px;
+	margin-top: -725px;
 	
-	margin-top: -925px;
-	margin-left: 850px;
+	text-align: center;
 	
 }
 
 .city {
 	
 	font-family: 'Avenir Next Condensed';
-	font-size: 120px;
+	font-size: 100px;
 	font-weight: normal;
 	color: #f47937;
 	
-	margin-top: -200px;
-	margin-left: 850px;
+	margin: 0;
+	margin-left : 650px;
+	margin-top: 20px;
+	
 	
 }
 
 .typeBox {
 	
-	width: 968px;
+	width: 700px;
 	height: 125px;
 	border: 2px solid #1a134a;
-	
-	margin-top: -120px;
-	margin-left: 850px;
+
+	margin: 0;
+	margin-left : 660px;
+	margin-top: 10px;
+	text-align: center;
 	
 }
 
@@ -259,24 +276,28 @@ body {
 	font-style: italic; 
 	color: #f47937;
 	
+	margin: 0;
+	margin-right: 250px;
 	margin-top: -10px;
-	margin-left: 10px;
+
+	text-align: center;
 	
 }
 
 .go {
 	
 	font-family: 'Great Sejagad';
-	font-size: 175px;
+	font-size: 125px;
 	font-weight: lighter;
 	color: #1a134a;
 	
-	margin-top: 70px;
-	margin-left: 1150px;
+	margin: 0;
+	margin-left : 550px;
+	margin-top: 60px;
+	
+	text-align: center;
 	
 }
-
-*/
 
 /*.footer {
 	
