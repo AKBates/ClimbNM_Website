@@ -1,5 +1,19 @@
 /* CSS Document */
 
+@font-face {
+	
+	src: url("../fonts/Avenir Next Condensed.ttc");
+	font-family: 'Avenir Next Condensed';
+	
+}
+
+@font-face {
+		
+	src: url("../fonts/Great Sejagad.ttf");
+	font-family: 'Great Sejagad';
+	
+}
+
 body {
 	
 	margin: 0 auto;
@@ -46,7 +60,7 @@ nav {
 	
 	color: #1a134a;
 	
-	font-family: 'Avenir Next Condensed', sans-serif;
+	font-family: 'Archivo Narrow', sans-serif;
 	font-size: 50px;
 	font-weight: bold;
 	
@@ -307,12 +321,10 @@ nav {
 .copyright {
 	
 	font-family: 'Avenir Next Condensed', sans-serif;
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: lighter;
 	color: #1a134a;
 	
-	
-	margin-top: 15px;
 	text-align: center;
 	
 	
