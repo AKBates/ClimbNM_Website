@@ -58,9 +58,9 @@ nav {
 	padding: 0;
 	width: 100%;
 	
-	color: #1a134a;
+	color: #ffffff;
 	
-	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 50px;
 	font-weight: bold;
 	
@@ -79,6 +79,7 @@ nav {
 	text-align: center;
 	
 	font-family: 'Avenir Next Condensed', sans-serif;
+	font-weight: lighter;
 	font-size: 50px;
 	
 }
@@ -97,6 +98,7 @@ nav {
 	
 	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 50px;
+	font-weight: 100px;
 	
 }
 
@@ -168,8 +170,8 @@ nav {
 .spHead1 {
 	
 	font-family: 'Avenir Next Condensed', sans-serif;
-	font-size: 150px;
-	font-weight: normal bold;
+	font-size: 140px;
+	font-weight: normal;
 	color: #ffffff;
 
 	margin: 0;
@@ -183,8 +185,8 @@ nav {
 .spHead2 {
 	
 	font-family: 'Avenir Next Condensed', sans-serif;
-	font-size: 150px;
-	font-weight: normal bold;
+	font-size: 140px;
+	font-weight: normal;
 	color: #ffffff;
 	
 	margin: 0;
@@ -277,14 +279,14 @@ nav {
 .typeCity {
 	
 	font-family: 'Avenir Next Condensed', sans-serif;
-	font-size: 100px;
+	font-size: 70px;
 	font-weight: lighter;
 	font-style: italic; 
 	color: #f47937;
 	
 	margin: 0;
 	margin-right: 250px;
-	margin-top: -10px;
+	margin-top: 10px;
 
 	text-align: center;
 	
@@ -294,7 +296,6 @@ nav {
 	
 	font-family: 'Great Sejagad', sans-serif;
 	font-size: 125px;
-	font-weight: lighter;
 	color: #1a134a;
 	
 	margin: 0;
@@ -322,7 +323,7 @@ nav {
 	
 	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 30px;
-	font-weight: lighter;
+	font-weight: 100px;
 	color: #1a134a;
 	
 	text-align: center;
