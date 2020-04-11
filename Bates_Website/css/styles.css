@@ -4,6 +4,7 @@ body {
 	
 	margin: 0 auto;
 	padding: 0;
+	width: 100%;
 	display: flex;
 	
 	
@@ -17,7 +18,7 @@ body {
 	
 }
 
-.nav {
+nav {
 	
 	margin: 0 auto;
 	padding: 0;
@@ -27,8 +28,7 @@ body {
 	background-color: #fdb94b;
 	
 	width: 100%;
-	max-width: 1920px;
-	min-width: 1300px;
+
 		
 }
 
@@ -46,8 +46,9 @@ body {
 	
 	color: #1a134a;
 	
-	font-family: 'Avenir Next Condensed';
+	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 50px;
+	font-weight: bold;
 	
 }
 
@@ -63,7 +64,7 @@ body {
 	color: #1a134a;
 	text-align: center;
 	
-	font-family: 'Avenir Next Condensed';
+	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 50px;
 	
 }
@@ -80,7 +81,7 @@ body {
 	color: #1a134a;
 	text-align: center;
 	
-	font-family: 'Avenir Next Condensed';
+	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 50px;
 	
 }
@@ -91,12 +92,7 @@ body {
 	
 	overflow: hidden;
 	width: 100%;
-	max-width: 1920px;
-	min-width: 1300px;
 	height: 700px;
-	
-	display: block;
-	flex-direction: column-reverse;
 	
 	
 	background-image: url("../HomepageImages/OrganMountain.jpg");
@@ -108,7 +104,7 @@ body {
 
 .climb {
 	
-	font-family: 'Great Sejagad';
+	font-family: 'Great Sejagad', sans-serif;
 	font-size: 350px;
 	color: #ffffff;
 	
@@ -120,7 +116,7 @@ body {
 
 .newMexico {
 	
-	font-family: 'Avenir Next Condensed';
+	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 250px;
 	font-weight: bolder;
 	color: #bde4e8;
@@ -139,8 +135,6 @@ body {
 	
 	overflow: hidden;
 	width: 100%;
-	max-width: 1920px;
-	min-width: 1300px;
 	height: 650px;
 	background-color: #bde4e8;
 	
@@ -159,7 +153,7 @@ body {
 
 .spHead1 {
 	
-	font-family: 'Avenir Next Condensed';
+	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 150px;
 	font-weight: normal bold;
 	color: #ffffff;
@@ -174,7 +168,7 @@ body {
 
 .spHead2 {
 	
-	font-family: 'Avenir Next Condensed';
+	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 150px;
 	font-weight: normal bold;
 	color: #ffffff;
@@ -189,7 +183,7 @@ body {
 
 .spSub {
 	
-	font-family: 'Great Sejagad';
+	font-family: 'Great Sejagad', sans-serif;
 	font-size: 130px;
 	color: #1a134a;
 	
@@ -206,8 +200,6 @@ body {
 	
 	overflow: hidden;
 	width: 100%;
-	max-width: 1920px;
-	min-width: 1300px;
 	height: 800px;
 	
 	display: flex;
@@ -229,7 +221,7 @@ body {
 
 .find {
 	
-	font-family: 'Great Sejagad';
+	font-family: 'Great Sejagad', sans-serif;
 	font-size: 135px;
 	color: #1a134a;
 
@@ -243,7 +235,7 @@ body {
 
 .city {
 	
-	font-family: 'Avenir Next Condensed';
+	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 100px;
 	font-weight: normal;
 	color: #f47937;
@@ -270,7 +262,7 @@ body {
 
 .typeCity {
 	
-	font-family: 'Avenir Next Condensed';
+	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 100px;
 	font-weight: lighter;
 	font-style: italic; 
@@ -286,7 +278,7 @@ body {
 
 .go {
 	
-	font-family: 'Great Sejagad';
+	font-family: 'Great Sejagad', sans-serif;
 	font-size: 125px;
 	font-weight: lighter;
 	color: #1a134a;
@@ -299,30 +291,32 @@ body {
 	
 }
 
-/*.footer {
+.footer {
 	
 	margin: 0 auto;
-	width: 1920px;
-	height: 137px;
+	padding: 0;
+	
+	overflow: hidden;
+	height: 100px;
 	background-color: #fdb94b;
 	
-	justify-content: center;
-	align-items: baseline;
+	width: 100%;
+	
 }
 
 .copyright {
 	
-	font-family: 'Avenir Next Condensed';
+	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 50px;
 	font-weight: lighter;
 	color: #1a134a;
 	
 	
-	margin-top: 30px;
+	margin-top: 15px;
 	text-align: center;
 	
 	
-}*/
+}
 
 
 
