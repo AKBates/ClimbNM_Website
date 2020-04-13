@@ -1,39 +1,29 @@
 /* CSS Document */
 
 @font-face {
-	
-	src: url("../fonts/Avenir Next Condensed.ttc");
+	src: url("../../fonts/Avenir Next Condensed.ttc");
 	font-family: 'Avenir Next Condensed';
-	
 }
 
 @font-face {
-		
-	src: url("../fonts/Great Sejagad.ttf");
+	src: url("../../fonts/Great Sejagad.ttf");
 	font-family: 'Great Sejagad';
-	
 }
 
 body {
-	
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
 	display: flex;
-	
-	
 }
 
 .container {
-	
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
-	
 }
 
 nav {
-	
 	margin: 0 auto;
 	padding: 0;
 	
@@ -41,13 +31,10 @@ nav {
 	height: 137px;
 	background-color: #fdb94b;
 	
-	width: 100%;
-
-		
+	width: 100%;	
 }
 
 .logo {
-	
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -62,12 +49,10 @@ nav {
 	
 	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 50px;
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
 
 .types {
-	
 	margin: 0;
 	margin-right: -425px;
 	margin-top: -65px;
@@ -79,13 +64,11 @@ nav {
 	text-align: center;
 	
 	font-family: 'Avenir Next Condensed', sans-serif;
-	font-weight: lighter;
-	font-size: 50px;
-	
+	font-weight: normal;
+	font-size: 50px;	
 }
 
 .routes {
-	
 	margin: 0;
 	margin-right: -625px;
 	margin-top: -67px;
@@ -98,12 +81,10 @@ nav {
 	
 	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 50px;
-	font-weight: 100px;
-	
+	font-weight: normal;
 }
 
 .firstPanel {
-	
 	margin: 0 auto;
 	
 	overflow: hidden;
@@ -115,23 +96,19 @@ nav {
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: .8;
-	
 }
 
 .climb {
-	
 	font-family: 'Great Sejagad', sans-serif;
 	font-size: 350px;
 	color: #ffffff;
 	
 	margin: 0;
 	margin-top: 20px;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .newMexico {
-	
 	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 250px;
 	font-weight: bolder;
@@ -139,39 +116,32 @@ nav {
 	
 	margin: 0;
 	margin-top: -100px;
-	text-align: center;
-
-	
+	text-align: center;	
 }
 
 
 .secondPanel {
-	
 	margin: 0 auto;
 	
 	overflow: hidden;
 	width: 100%;
 	height: 650px;
-	background-color: #bde4e8;
-	
+	background-color: #bde4e8;	
 }
 
 .carabiner {
-	
 	width: 700px;
 	height: 700px;
 	
 	margin: 0;
 	margin-top: -40px;
-	margin-left: -80px;
-	
+	margin-left: -80px;	
 }
 
 .spHead1 {
-	
 	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 140px;
-	font-weight: normal;
+	font-weight: bold;
 	color: #ffffff;
 
 	margin: 0;
@@ -179,14 +149,12 @@ nav {
 	margin-top: -575px;
 
 	justify-content: center;
-	
 }
 
 .spHead2 {
-	
 	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 140px;
-	font-weight: normal;
+	font-weight: bold;
 	color: #ffffff;
 	
 	margin: 0;
@@ -194,11 +162,9 @@ nav {
 	margin-top: -50px;
 
 	text-align: center;
-	
 }
 
 .spSub {
-	
 	font-family: 'Great Sejagad', sans-serif;
 	font-size: 130px;
 	color: #1a134a;
@@ -207,11 +173,9 @@ nav {
 	margin-right: -600px;
 	margin-top: -30px;
 	text-align: center;
-	
 }
 
 .thirdPanel {
-	
 	margin: 0 auto;
 	
 	overflow: hidden;
@@ -219,24 +183,19 @@ nav {
 	height: 800px;
 	
 	display: flex;
-	
 }
 
 .shelf {
-	
 	width: 625px;
 	height: 800px;
 	
 	display: flex;
 	
 	margin: 0;
-
-	
 }
 
 
 .find {
-	
 	font-family: 'Great Sejagad', sans-serif;
 	font-size: 135px;
 	color: #1a134a;
@@ -246,11 +205,9 @@ nav {
 	margin-top: -725px;
 	
 	text-align: center;
-	
 }
 
 .city {
-	
 	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 100px;
 	font-weight: normal;
@@ -259,12 +216,9 @@ nav {
 	margin: 0;
 	margin-left : 650px;
 	margin-top: 20px;
-	
-	
 }
 
 .typeBox {
-	
 	width: 700px;
 	height: 125px;
 	border: 2px solid #1a134a;
@@ -272,12 +226,10 @@ nav {
 	margin: 0;
 	margin-left : 660px;
 	margin-top: 10px;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .typeCity {
-	
 	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 70px;
 	font-weight: lighter;
@@ -285,15 +237,13 @@ nav {
 	color: #f47937;
 	
 	margin: 0;
-	margin-right: 250px;
+	margin-right: 350px;
 	margin-top: 10px;
 
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .go {
-	
 	font-family: 'Great Sejagad', sans-serif;
 	font-size: 125px;
 	color: #1a134a;
@@ -303,11 +253,9 @@ nav {
 	margin-top: 60px;
 	
 	text-align: center;
-	
 }
 
 .footer {
-	
 	margin: 0 auto;
 	padding: 0;
 	
@@ -316,19 +264,15 @@ nav {
 	background-color: #fdb94b;
 	
 	width: 100%;
-	
 }
 
 .copyright {
-	
 	font-family: 'Avenir Next Condensed', sans-serif;
 	font-size: 30px;
-	font-weight: 100px;
+	font-weight: lighter;
 	color: #1a134a;
 	
 	text-align: center;
-	
-	
 }
 
 
