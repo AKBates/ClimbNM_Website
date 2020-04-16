@@ -23,6 +23,18 @@ body {
 	width: 100%;
 }
 
+a {
+	text-decoration: none;
+	margin: 0;
+	margin-right: -425px;
+	margin-top: -65px;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
 nav {
 	margin: 0 auto;
 	padding: 0;
