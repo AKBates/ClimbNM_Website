@@ -92,7 +92,7 @@ a:hover {
 	font-weight: 100px;
 }
 
-.firstPanel {
+.typesfirstPanel {
 	margin: 0 auto;
 	overflow: hidden;
 	width: 100%;
@@ -103,7 +103,7 @@ a:hover {
 	background-size: cover;
 }
 
-.secondPanel {
+.typessecondPanel {
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
@@ -113,7 +113,7 @@ a:hover {
 	
 }
 
-.thirdPanel {
+.typesthirdPanel {
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
@@ -122,7 +122,7 @@ a:hover {
 	background-color: #1a134a;
 }
 
-.fourthPanel {
+.typesfourthPanel {
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
@@ -132,7 +132,7 @@ a:hover {
 	background-color: #ffffff;
 }
 
-h1 {
+.h1 {
 	margin: 0;
 	margin-left: -450px;
 	margin-top: 75px;
@@ -145,7 +145,7 @@ h1 {
 	color: #1a134a;
 }
 
-h2 {
+.h2 {
 	margin: 0;
 	margin-top: 75px;
 	margin-left: 50px;
@@ -158,7 +158,7 @@ h2 {
 	color: #f47937;
 }
 
-h3 {
+.h3 {
 	margin: 0;
 	margin-left: -450px;
 	padding: 0;
@@ -170,7 +170,7 @@ h3 {
 	color: #1a134a;
 }
 
-p {
+.p {
 	margin: 0;
 	margin-top: 25px;
 	margin-left: 50px;
@@ -229,7 +229,7 @@ p {
 	color: #ffffff;
 }
 
-.carabiner {
+.typescarabiner {
 	width: 600px;
 	height: 600px;
 	
