@@ -230,7 +230,22 @@ nav {
 	margin-top: 20px;
 }
 
-.typeBox {
+input {
+	width: 700px;
+	height: 125px;
+	border: 3px solid #1a134a;
+	font-family: 'Avenir Next Condensed', sans-serif;
+	font-size: 70px;
+	font-weight: lighter;
+	font-style: italic; 
+	color: #f47937;
+	margin: 0;
+	margin-left : 660px;
+	margin-top: 10px;
+	padding-left: 25px;
+}
+
+/*.typeBox {
 	width: 700px;
 	height: 125px;
 	border: 2px solid #1a134a;
@@ -253,7 +268,7 @@ nav {
 	margin-top: 10px;
 
 	text-align: center;	
-}
+}*/
 
 .go {
 	font-family: 'Great Sejagad', sans-serif;
