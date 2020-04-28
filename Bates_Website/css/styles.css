@@ -437,6 +437,17 @@ input {
 	padding: 0;
 }
 
+.routesFirstPanel {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 100%;
+	height: 550px;
+
+	background-image: url("../RoutesImages/OrganHeader.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .footer {
 	margin: 0 auto;
 	padding: 0;
