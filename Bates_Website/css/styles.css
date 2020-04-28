@@ -10,7 +10,7 @@
 	font-family: 'Great Sejagad';
 }
 
-body {
+html, body {
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
@@ -30,6 +30,10 @@ a {
 a:hover {
 	text-decoration: none;
 	font-weight: bold;
+}
+
+a:visited {
+	color: #ffffff;
 }
 
 nav {
@@ -446,6 +450,19 @@ input {
 	background-image: url("../RoutesImages/OrganHeader.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.rHeader {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Avenir Next Condensed', sans-serif;
+	font-size: 175px;
+	font-weight: bold;
+	color: #1a134a;
 }
 
 .footer {
