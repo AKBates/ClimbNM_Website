@@ -6,7 +6,7 @@
 }
 
 @font-face {
-	src: url("../../fonts/Great Sejagad.ttf");
+	src: url("../fonts/Great Sejagad.otf");
 	font-family: 'Great Sejagad';
 }
 
@@ -21,19 +21,6 @@ html, body {
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
-}
-
-a {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: none;
-	font-weight: bold;
-}
-
-a:visited {
-	color: #ffffff;
 }
 
 nav {
@@ -441,28 +428,61 @@ input {
 	padding: 0;
 }
 
-.routesFirstPanel {
-	margin: 0 auto;
-	overflow: hidden;
+/* Style the buttons */
+.regionBtn {
+	border: none;
+	outline: none;
 	width: 100%;
-	height: 550px;
-
-	background-image: url("../RoutesImages/OrganHeader.JPG");
-	background-repeat: no-repeat;
-	background-size: cover;
+	height: 75px;
+	background-color: #1a134a;
+	cursor: pointer;
+	font-family: 'Avenir Next Condensed';
+	font-size: 50px;
+	font-weight: bolder;
+	color: #ffffff;
+	margin: 0 auto;
+	text-align: center;
 }
 
-.rHeader {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	font-family: 'Avenir Next Condensed', sans-serif;
-	font-size: 175px;
-	font-weight: bold;
+.filterDiv {
+	float: left;
+	width: 100%;
+	background-color: #f1f1f1;
+	line-height: 50px;
+	margin: 2px;
+  	display: none; /* Hidden by default */
+}
+	
+.routeHead {
+	font-family: 'Great Sejagad';
+	font-weight: lighter;
+	font-size: 75px;
+	color: #f47937;
+	margin-left: 25px;
+}
+
+.rDescript {
+	font-family: 'Avenir Next Condensed';
+	font-size: 25px;
 	color: #1a134a;
+	margin-top: -30px;
+	margin-left: 50px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  	display: block;
+}
+
+/* Add a light grey background on mouse-over */
+.regionBtn:hover {
+  	background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.regionBtn.active {
+  	background-color: #666;
+  	color: white;
 }
 
 .footer {
@@ -484,6 +504,20 @@ input {
 	
 	text-align: center;
 }
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:active {
+	color: #ffffff;
+}
+
 
 
 

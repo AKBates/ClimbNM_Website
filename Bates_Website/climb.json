@@ -1,0 +1,86 @@
+[
+ {
+   "ROUTE": "Sugarite Canyon State Park",
+   "REGION": "North"
+ },
+ {
+   "ROUTE": "Comales Canyon",
+   "REGION": "North"
+ },
+ {
+   "ROUTE": "White Rock",
+   "REGION": "North"
+ },
+ {
+   "ROUTE": "Battleship Rock",
+   "REGION": "North"
+ },
+ {
+   "ROUTE": "Las Conchas",
+   "REGION": "North"
+ },
+ {
+   "ROUTE": "Diablo Canyon",
+   "REGION": "North"
+ },
+ {
+   "ROUTE": "Capulin Canyon",
+   "REGION": "North"
+ },
+ {
+   "ROUTE": "Cochiti Mesa Area Crags",
+   "REGION": "North"
+ },
+ {
+   "ROUTE": "Mentmore",
+   "REGION": "Central"
+ },
+ {
+   "ROUTE": "U-Mound",
+   "REGION": "Central"
+ },
+ {
+   "ROUTE": "Palomas Peak",
+   "REGION": "Central"
+ },
+ {
+   "ROUTE": "Enchanted Tower",
+   "REGION": "Central"
+ },
+ {
+   "ROUTE": "Tucumcari Mountain",
+   "REGION": "Central"
+ },
+ {
+   "ROUTE": "The Box Recreational Area",
+   "REGION": "Central"
+ },
+ {
+   "ROUTE": "Luna Park",
+   "REGION": "Central"
+ },
+ {
+   "ROUTE": "Percha Creek",
+   "REGION": "South"
+ },
+ {
+   "ROUTE": "The Tunnel",
+   "REGION": "South"
+ },
+ {
+   "ROUTE": "City of Rocks",
+   "REGION": "South"
+ },
+ {
+   "ROUTE": "Rough and Ready Hills",
+   "REGION": "South"
+ },
+ {
+   "ROUTE": "Sitting Bull Falls",
+   "REGION": "South"
+ },
+ {
+   "ROUTE": "Last Chance Canyon",
+   "REGION": "South"
+ }
+]

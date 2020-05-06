@@ -16,16 +16,99 @@
 			<a href="types.html"><p class="types">TYPES</p></a>
 			<a href="routes.html"><p class="routes">ROUTES</p></a>
 		</nav>
-		
-		<div class="routesFirstPanel">
-			<h1 class="rHeader">ROUTES NEAR YOU</h1>
+				<!-- Control buttons -->
+			<div  id="myBtnContainer">
+				<option class="regionBtn" onclick="filterSelection('all')">SHOW ALL</option>
+				<option class="regionBtn" onclick="filterSelection('NNM')"> NORTHERN NEW MEXICO</option>
+				<option class="regionBtn" onclick="filterSelection('CNM')"> CENTRAL NEW MEXICO</option>
+				<option class="regionBtn" onclick="filterSelection('SNM')"> SOUTHERN NEW MEXICO</option>
+			
+			</div>
+
+		<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+		<div class="filterContainer">
+			<div class="filterDiv NNM"><h1 class="routeHead">Sugarite Canyon State Park</h1><p class="rDescript">In between Raton and the Colorado border, Sugarite Canyon provides great routes for all types of climbing.</p></div>
+			<div class="filterDiv NNM"><h1 class="routeHead">Comales Canyon</h1><p class="rDescript">Comales Canyon is just south of Taos and provides several routes for sport and traditional climbing.</p></div>
+			<div class="filterDiv NNM"><h1 class="routeHead">White Rock</h1><p class="rDescript">White Rock is right by Los Alamos. This place is not limited to the National Lab, but also has some amazing sport and traditional climbs.</p></div>
+			<div class="filterDiv NNM"><h1 class="routeHead">Battleship Rock</h1><p class="rDescript">Battleship Rock is located in the Jemez Moutains and offers all types of climbing imaginable.</p></div>
+			<div class="filterDiv NNM"><h1 class="routeHead">Las Conchas</h1><p class="rDescript">Near Battleship Rock, Las Conchas is in the Jemez Mountains with a ton of great routes.</p></div>
+			<div class="filterDiv NNM"><h1 class="routeHead">Diablo Canyon</h1><p class="rDescript">Diablo Canyon is thirty minutes outside of Santa Fe. It has some excellent sport climbing routes.</p></div>
+			<div class="filterDiv NNM"><h1 class="routeHead">Capulin Canyon</h1><p class="rDescript">Capulin Canyon is just south of Los Alamos and west of Santa Fe. It is a great spot for any kind of free climbing.</p></div>
+			<div class="filterDiv NNM"><h1 class="routeHead">Cochiti Mesa Area Crags</h1><p class="rDescript">Near Capulin Canyon, Cochiti Mesa Area Crags also offers some great sport climbs.</p></div>
+			
+		  	<div class="filterDiv CNM"><h1 class="routeHead">Mentmore</h1><p class="rDescript">Near Gallup, Mentmore provides some fantastic sport climbing.</p></div>
+			<div class="filterDiv CNM"><h1 class="routeHead">U-Mound</h1><p class="rDescript">U-Mound offers some amazing bouldering routes at the base of the Sandia Mountains in Albuquerque.</p></div>
+			<div class="filterDiv CNM"><h1 class="routeHead">Palomas Peak</h1><p class="rDescript">Paloma Peak is in the Sandia Mountains with some great bouldering options.</p></div>
+			<div class="filterDiv CNM"><h1 class="routeHead">Enchanted Tower</h1><p class="rDescript">Towards the Western side of the state, REI's MountainProject boasts that Enchanted Tower is the best place for sport climbing in the entire state.</p></div>
+			<div class="filterDiv CNM"><h1 class="routeHead">Tucumcari Mountain</h1><p class="rDescript">Right by the Texas border, Tucumcari Mountain provides sandstone bouldering.</p></div>
+			<div class="filterDiv CNM"><h1 class="routeHead">The Box Recreational Area</h1><p class="rDescript">Approaching Socorro, The Box Recreational Area carries some great bouldering routes.</p></div>
+			<div class="filterDiv CNM"><h1 class="routeHead">Luna Park</h1><p class="rDescript">Luna Park has volcanic rock that offers some fantastic moderate climbs for the adventurous climber.</p></div>
+			
+		 	<div class="filterDiv SNM"><h1 class="routeHead">Percha Creek</h1><p class="rDescript">Right on the edge of Caballo Lake State Park, Percha Creek has some great free climbs.</p></div>
+			<div class="filterDiv SNM"><h1 class="routeHead">The Tunnel</h1><p class="rDescript">The Tunnel is right outside of Alamogordo and contains some of the most difficult sport climbs in the entire state.</p></div>
+			<div class="filterDiv SNM"><h1 class="routeHead">City of Rocks</h1><p class="rDescript">City of Rocks is near Las Cruces and has some fantastic bouldering routes. There is also a very interesting museum/visitor center that provides history facts about the area.</p></div>
+			<div class="filterDiv SNM"><h1 class="routeHead">Rough and Ready Hills</h1><p class="rDescript">Rough and Ready sits along the Organ Mountain Range near Las Cruces and provides excellent sport climbing. There is a decent amount of hiking to get to the climbing routes.</p></div>
+			<div class="filterDiv SNM"><h1 class="routeHead">Sitting Bull Falls</h1><p class="rDescript">In a remote area at the very Southern part of the state, but provides great free and solo climbs.</p></div>
+			<div class="filterDiv SNM"><h1 class="routeHead">Last Chance Canyon</h1><p class="rDescript">Also in the very southernmost part of the state, Last Chance Canyon offers some great free and solo climbs.</p></div>
 		</div>
-		
+
 		<div class="footer">
 			<p class="copyright">website powered by annakatstudios 2020</p>
 		</div>
+
+		</div>
 	
-	</div>
+	<script>
+			
+	filterSelection("all")
+		function filterSelection(c) {
+		  var x, i;
+		  x = document.getElementsByClassName("filterDiv");
+		  if (c == "all") c = "";
+		  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+		  for (i = 0; i < x.length; i++) {
+			w3RemoveClass(x[i], "show");
+			if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+		  }
+		}
+
+		// Show filtered elements
+		function w3AddClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+			if (arr1.indexOf(arr2[i]) == -1) {
+			  element.className += " " + arr2[i];
+			}
+		  }
+		}
+
+		// Hide elements that are not selected
+		function w3RemoveClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+			while (arr1.indexOf(arr2[i]) > -1) {
+			  arr1.splice(arr1.indexOf(arr2[i]), 1);
+			}
+		  }
+		  element.className = arr1.join(" ");
+		}
+
+		// Add active class to the current control button (highlight it)
+		var btnContainer = document.getElementById("myBtnContainer");
+		var regions = btnContainer.getElementsByClassName("region");
+		for (var i = 0; i < regions.length; i++) {
+		  btns[i].addEventListener("click", function() {
+			var current = document.getElementsByClassName("active");
+			current[0].className = current[0].className.replace(" active", "");
+			this.className += " active";
+		  });
+	}
+		
+	</script>
 	
 </body>
 </html>
