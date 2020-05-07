@@ -30,11 +30,11 @@
 			</div>
 		</div>
 
-		<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+		<!-- I referenced REI's MountainProject for almost all of this material -->
 		<div class="filterContainer">
-			<div class="filterDiv NNM"><h1 class="routeHead">Sugarite Canyon State Park</h1><p class="rDescript">In between Raton and the Colorado border, Sugarite Canyon provides great routes for all types of climbing.</p></div>
+			<div class="filterDiv NNM"><h1 class="routeHead">Sugarite Canyon State Park</h1><p class="rDescript">In between Raton and the Colorado state border, Sugarite Canyon provides great routes for all types of climbing.</p></div>
 			<div class="filterDiv NNM"><h1 class="routeHead">Comales Canyon</h1><p class="rDescript">Comales Canyon is just south of Taos and provides several routes for sport and traditional climbing.</p></div>
-			<div class="filterDiv NNM"><h1 class="routeHead">White Rock</h1><p class="rDescript">White Rock is right by Los Alamos. This place is not limited to the National Lab, but also has some amazing sport and traditional climbs.</p></div>
+			<div class="filterDiv NNM"><h1 class="routeHead">Los Alamos</h1><p class="rDescript">Los Alamos is right by White Rock. While Los Alamos is traditionally associated with the National Lab, it also has some amazing sport and traditional climbs.</p></div>
 			<div class="filterDiv NNM"><h1 class="routeHead">Battleship Rock</h1><p class="rDescript">Battleship Rock is located in the Jemez Moutains and offers all types of climbing imaginable.</p></div>
 			<div class="filterDiv NNM"><h1 class="routeHead">Las Conchas</h1><p class="rDescript">Near Battleship Rock, Las Conchas is in the Jemez Mountains with a ton of great routes.</p></div>
 			<div class="filterDiv NNM"><h1 class="routeHead">Diablo Canyon</h1><p class="rDescript">Diablo Canyon is thirty minutes outside of Santa Fe. It has some excellent sport climbing routes.</p></div>
@@ -64,21 +64,23 @@
 		</div>
 	
 	<script>
+		
+	// much of this code was taken and adapted from W3Schools	
 			
 	filterSelection("all")
 		function filterSelection(c) {
 		  var x, i;
 		  x = document.getElementsByClassName("filterDiv");
 		  if (c == "all") c = "";
-		  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+		 
 		  for (i = 0; i < x.length; i++) {
-			w3RemoveClass(x[i], "show");
-			if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+			removeRegion(x[i], "show");
+			if (x[i].className.indexOf(c) > -1) addRegion(x[i], "show");
 		  }
 		}
 
 		// Show filtered elements
-		function w3AddClass(element, name) {
+		function addRegion(element, name) {
 		  var i, arr1, arr2;
 		  arr1 = element.className.split(" ");
 		  arr2 = name.split(" ");
@@ -90,7 +92,7 @@
 		}
 
 		// Hide elements that are not selected
-		function w3RemoveClass(element, name) {
+		function removeRegion(element, name) {
 		  var i, arr1, arr2;
 		  arr1 = element.className.split(" ");
 		  arr2 = name.split(" ");
@@ -102,7 +104,6 @@
 		  element.className = arr1.join(" ");
 		}
 
-		// Add active class to the current control button (highlight it)
 		var btnContainer = document.getElementById("myBtnContainer");
 		var regions = btnContainer.getElementsByClassName("region");
 		for (var i = 0; i < regions.length; i++) {
