@@ -1,13 +1,5 @@
 /* CSS Document */
 
-@media (max-width: 1920px) {
-	html, body {
-	margin: 0 auto;
-	padding: 0;
-	width: 100%;
-}
-}
-
 @font-face {
 	src: url("../fonts/Avenir Next Condensed.ttc");
 	font-family: 'Avenir Next Condensed';
@@ -16,6 +8,13 @@
 @font-face {
 	src: url("../fonts/Great Sejagad.otf");
 	font-family: 'Great Sejagad';
+}
+
+html, body {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	display: flex;
 }
 
 .container {
