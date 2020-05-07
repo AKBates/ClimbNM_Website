@@ -506,6 +506,7 @@ input {
 }
 
 a {
+	text-decoration: none;
 	color: #1a134a;
 }
 
