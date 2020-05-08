@@ -32,6 +32,10 @@ nav {
 	width: 100%;
 }
 
+.active {
+	color: #ffffff;
+}
+
 .logo {
 	float: left;	
 	margin: 0;
@@ -510,13 +514,8 @@ a {
 	color: #1a134a;
 }
 
-a:active { 
-	font-style: italic;
-	color: #ffffff;
-}
-
 a:hover {
-	font-style: italic;
+	color: #ffffff;
 }
 
 
